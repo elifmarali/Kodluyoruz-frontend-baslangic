@@ -1,0 +1,56 @@
+* {
+  /* tüm elemntelrin margin ve paddingi sıfınlamıştır*/
+  margin: 0;
+  padding: 0;
+}
+div * {
+  /*tüm div elementleri içindeki elementlerin yazı rengine erişmiş olduk. */
+  color: orange;
+}
+
+.color-blue.fw-normal {
+  /* bitişik yazıldığında ikisi aynı anda olur*/
+  color: blue;
+  font-weight: normal;
+}
+/* 
+ul > li:first-child {
+  color: green;
+}
+
+ul > li:last-child {
+  color: aqua;
+} */
+
+ul > li:nth-child(2) {
+  background: red;
+}
+
+.odd > li:nth-child(odd) {
+  background-color: aquamarine;
+}
+
+.even > li:nth-child(even) {
+  background: greenyellow;
+}
+.even > li:hover {
+  /*üstüne mouse ile gelindiğinde*/
+  background-color: red;
+}
+.odd > li:active {
+  /*mouse ile tıklandığında */
+  position: relative;
+  top: 5px;
+}
+p::first-letter {
+  font-size: 20px;
+  color: orange;
+}
+p::before {
+  content: "selam";
+  color: orange;
+}
+p::after {
+  content: "selam";
+  color: orange;
+}

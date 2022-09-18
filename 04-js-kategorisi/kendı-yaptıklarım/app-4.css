@@ -1,0 +1,30 @@
+#metodNames {
+  color: #ba180b;
+  font-size: 25px;
+}
+p {
+  font-size: 20px;
+  color: black;
+}
+div {
+  font-size: 25px;
+}
+
+.colorp {
+  background-color: #ffc300;
+}
+.button {
+  width: 100px;
+  background-color: #ffc300;
+}
+.addButton {
+  background-color: #c73e33;
+}
+
+.secButton {
+  background-color: #8872ad;
+}
+.secButton:hover {
+  background-color: bisque;
+  transition: 300ms all;
+}

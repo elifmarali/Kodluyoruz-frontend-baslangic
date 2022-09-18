@@ -1,0 +1,25 @@
+body {
+  background-color: rgba(0, 0, 0, 0.165);
+  text-align: center;
+}
+#kodluyoruz-img {
+  display: flex;
+  width: 60vh;
+  margin: 120px auto 0 auto;
+}
+.text {
+  font-size: 25px;
+  font-family: initial;
+  padding: 1px;
+}
+
+.saat-tarih {
+  font-size: 50px;
+  background-color: rgba(0, 0, 0, 0.099);
+  border-radius: 50px;
+}
+.saat-tarih:hover {
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}

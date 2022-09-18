@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+  margin-top: 14px;
+}
+nav a {
+  font-size: 13px;
+  display: inline-block;
+  line-height: 24px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.87);
+  cursor: pointer;
+  padding: 5px 6.7px;
+}
+nav a:hover {
+  text-underline: underline;
+  opacity: 0.85;
+}
+nav img {
+  width: 34px;
+  padding: 5px;
+  margin: auto 7px;
+  cursor: pointer;
+}
+nav img {
+  opacity: 0.8;
+}
+nav button {
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  background: #4285f4;
+  border-radius: 3px;
+  padding: 3px 5px;
+  cursor: pointer;
+}
+nav button a {
+  color: #fff;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.section-1 img {
+  width: 272px;
+  height: 92px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+}
+.s-box {
+  width: 580px;
+  margin: 0px auto;
+  position: relative;
+  margin-top: -8px;
+  text-align: center;
+}
+.s-box input {
+  display: block;
+  border: 1px solid #ddd;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 16px;
+  width: 100%;
+  padding: 13px;
+  padding-left: 45px;
+  margin-top: 20px;
+  border-radius: 25px;
+  transition: box-shadow 100ms;
+}
+.icon .search-icn {
+  position: absolute;
+  width: 25px;
+  height: auto;
+  top: -90px;
+  left: 10px;
+  opacity: 0.8;
+}
+.icon .voice-icn {
+  position: absolute;
+  width: 25px;
+  height: auto;
+  top: -90px;
+  right: 10px;
+}
+
+.s-btn {
+  border: 1px solid transparent;
+  display: inline-block;
+  width: 216px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f8f9fa;
+  user-select: none;
+  outline: none;
+  padding: 9px 15px;
+  margin: 10px;
+  border-radius: 4px;
+}
+
+.lang {
+  margin: 10px;
+  text-align: center;
+}
+
+footer {
+  background: #f2f2f2;
+  width: 100%;
+  height: 141px;
+  margin-top: 246px;
+}
+footer h4 {
+  font-weight: 300;
+  padding: 28.7px;
+  opacity: 0.5;
+}
+footer a {
+  color: #000;
+  opacity: 0.5;
+  padding: 10px;
+}
+.links {
+  border-top: 1px solid #ddd;
+  display: flex;
+}
+.link-1 {
+  padding: 18.7px;
+  flex: 1;
+}
+.link-2 {
+  padding: 18.7px;
+}

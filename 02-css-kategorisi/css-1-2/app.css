@@ -1,0 +1,36 @@
+h1 {
+  color: crimson;
+  font-size: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(220, 20, 60, 0.516);
+  border-radius: 10px;
+  padding: 50px;
+  font-style: italic;
+}
+h2 {
+  color: deeppink;
+  font-size: 50px;
+  background-color: rgba(255, 20, 145, 0.253);
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+p {
+  font-family: italic;
+  font-size: 20px;
+  background-color: gray;
+  border-radius: 10px;
+  width: auto;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-transform: lowercase;
+  font-style: italic;
+}
